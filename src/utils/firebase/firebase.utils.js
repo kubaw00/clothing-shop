@@ -21,12 +21,12 @@ import {
 } from 'firebase/firestore';
 
 const firebaseConfig = {
-  apiKey: process.env.API_KEY,
-  authDomain: process.env.AUTH_DOMAIN,
-  projectId: process.env.PROJECT_ID,
-  storageBucket: process.env.STORAGE_BUCKET,
-  messagingSenderId: process.env.MESSAGING_SENDER_ID,
-  appId: process.env.APPID,
+  apiKey: 'AIzaSyBGNeJFU1L8VsIAkSezTFn0scp4h1Qy0wU',
+  authDomain: 'clothing-shop-8b6ea.firebaseapp.com',
+  projectId: 'clothing-shop-8b6ea',
+  storageBucket: 'clothing-shop-8b6ea.appspot.com',
+  messagingSenderId: '493287559449',
+  appId: '1:493287559449:web:f02f041f019151b03ab588',
 };
 
 const firebaseApp = initializeApp(firebaseConfig);
